@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: SpringDataJDBCTrain
+  liquibase:
+    change-log: db/changelog/db.changelog-master.yaml
+    enabled: true
+  jpa:
+    show-sql: true
